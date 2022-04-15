@@ -57,7 +57,7 @@ You should now have met all the conditions to safely deploy the project to your 
 - accountId = The account id needs to be explicitly passed as a parameter as a requirement for hosted-zone lookups
 
 ```bash
-$ cdk deploy -c -c accountId=1234567890
+$ cdk deploy -c accountId=1234567890
 ```
 
 ### Tear down
