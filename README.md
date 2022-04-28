@@ -51,6 +51,17 @@ know whih environment to bootstrap based on your .aws/credentials file
 $ cdk bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess
 ```
 
+### Run unit tests
+To ensure a consistent experience intended by the developer ensure all tests are passing before deploying. 
+
+Run the below command:
+```bash
+$ npm run test
+```
+
+Output should look similar to this though the number and description of test cases may vary (SS taken 4/28/2022):
+![unit-tests.png](unit-tests.png)
+
 ### Deploy
 
 You should now have met all the conditions to safely deploy the project to your AWS account (note you must register and own the hopkinsresu.me domain in Route53 in the same account in order for this to work as it is hard coded. Run the below command with the required parameters.
