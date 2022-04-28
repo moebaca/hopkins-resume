@@ -60,7 +60,7 @@ $ npm run test
 ```
 
 Output should look similar to this though the number and description of test cases may vary (SS taken 4/28/2022):
-![unit-tests.png](unit-tests.png)
+![test-cases.png](test-cases.png)
 
 ### Deploy
 
