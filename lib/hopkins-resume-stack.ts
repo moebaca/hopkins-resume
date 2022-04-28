@@ -12,9 +12,9 @@ import { S3Origin } from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
 import * as iam from 'aws-cdk-lib/aws-iam';
 
-export class HopkinsResumeStack extends Stack {
+export class HopkinsResumeStack extends Construct {
   constructor(scope: Construct, id: string, props?: StackProps) {
-    super(scope, id, props);
+    super(scope, id);
 
     const domainName = 'hopkinsresu.me';
 
