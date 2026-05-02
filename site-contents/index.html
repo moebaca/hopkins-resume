@@ -7,10 +7,30 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Matt Hopkins' resume." />
+    <meta
+      name="description"
+      content="Matt Hopkins - Sr. Platform Engineer at PayPay. Cloud infrastructure, AI-powered operations, and cost optimization."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Matt Hopkins - Sr. Platform Engineer" />
+    <meta
+      property="og:description"
+      content="Cloud infrastructure, AI-powered operations, and cost optimization at PayPay."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hopkinsresu.me" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="./js/bootstrap/bootstrap.min.css" />
@@ -28,11 +48,11 @@
         <div class="profile-container">
           <img
             class="avatar"
-            src="./images/hopkins-profile.jpg"
+            src="./images/hopkins-profile.png"
             alt="Matt Hopkins profile picture"
           />
           <h1 class="name">Matt Hopkins</h1>
-          <h3 class="tagline">Sr. Site Reliability Engineer @ Autify</h3>
+          <h3 class="tagline">Sr. Platform Engineer @ PayPay</h3>
         </div>
 
         <div class="contact-container container-block">
@@ -53,6 +73,7 @@
           <h2 class="container-block-title">Core Tools &amp; Languages</h2>
           <ul class="list-unstyled interests-list">
             <li><i class="fa-brands fa-aws"></i> AWS</li>
+            <li><i class="fa-solid fa-dharmachakra"></i> Kubernetes</li>
             <li><i class="fa-brands fa-python"></i> Python</li>
             <li><i class="fa-solid fa-wrench"></i> Terraform</li>
           </ul>
@@ -62,7 +83,7 @@
           <h2 class="container-block-title">Certifications</h2>
           <ul class="list-unstyled interests-list">
             <li>
-              <i class="fa-brands fa-docker"></i>
+              <i class="fa-solid fa-anchor"></i>
               <a href="https://training.linuxfoundation.org/certification/verify/" target="_blank">
                 Certified Kubernetes Administrator (CKA)
               </a>
@@ -83,7 +104,7 @@
                 href="https://www.credly.com/badges/7703c528-82c7-4638-9b57-b35d0c8ff0f4"
                 target="_blank"
               >
-                AWS Certified Solutions Architect – Professional
+                AWS Certified Solutions Architect - Professional
               </a>
             </li>
             <li>
@@ -92,7 +113,7 @@
                 href="https://www.youracclaim.com/badges/ef62347f-2169-411c-b9ea-ab8c8940d8ef/linked_in_profile"
                 target="_blank"
               >
-                AWS Certified Security – Specialty
+                AWS Certified Security - Specialty
               </a>
             </li>
             <li>
@@ -128,10 +149,10 @@
         <div class="interests-container container-block">
           <h2 class="container-block-title">Interests</h2>
           <ul class="list-unstyled interests-list">
-            <li>Kubernetes</li>
+            <li>AI/ML for Operations</li>
             <li>Cost Optimization</li>
-            <li>Infrastructure as Code</li>
             <li>Observability</li>
+            <li>Infrastructure as Code</li>
           </ul>
         </div>
       </div>
@@ -157,14 +178,15 @@
           </h2>
           <div class="summary">
             <p>
-              Results-oriented Site Reliability Engineer with 10+ years of experience specializing
-              in cloud cost optimization and infrastructure efficiency.
+              Platform engineer with 12+ years of cloud experience and 14+ years in tech,
+              specializing in AWS infrastructure, cloud cost optimization, and AI-powered
+              operational tooling.
             </p>
             <p>
-              Proven track record of reducing AWS expenses over 50%, implementing zero-downtime
-              migrations, and architecting scalable, cost-effective cloud solutions.
-              AWS/CKA-certified engineer passionate about maximizing ROI through strategic resource
-              management, infrastructure automation, and data-driven cost controls.
+              Track record of delivering measurable cost savings (&gt;$100K/yr), architecting
+              multi-agent AI systems used by 100+ engineers weekly, and building cross-company
+              observability infrastructure. AWS/CKA-certified with expertise in Kubernetes, Python,
+              Terraform, and data-driven infrastructure management.
             </p>
           </div>
         </section>
@@ -181,8 +203,42 @@
           <div class="item">
             <div class="meta">
               <div class="upper-row">
+                <h3 class="job-title">Sr. Platform Engineer</h3>
+                <div class="time">2025 - Present</div>
+              </div>
+              <div class="company">PayPay Corporation</div>
+              <div class="company">Tokyo, Japan</div>
+            </div>
+
+            <div class="details">
+              <ul>
+                <li>
+                  Built and maintain CloudOps Agent, an AI-powered operations platform on EKS using
+                  the Strands Agents SDK with 30+ subagents connected via the A2A protocol. Used by
+                  100+ engineers weekly, handling 1,300+ queries per week with full observability
+                  and traceability via OpenTelemetry. Adopted as the standard agent pattern across
+                  multiple teams and group companies
+                </li>
+                <li>
+                  Architected the AWS infrastructure for a multi-tenant observability platform
+                  serving several business units. Built on VictoriaMetrics, OpenTelemetry,
+                  ClickHouse, and Grafana running on dedicated multi-region EKS clusters
+                </li>
+                <li>
+                  Reduced cloud spend by over $100K/yr within the first year across 100+ AWS
+                  accounts spanning multiple organizations. Built Savings Plans and Reserved
+                  Instance dashboards with renewal alerts, CUDOS reporting, and cost anomaly
+                  detection integrated directly into the CloudOps Agent
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
                 <h3 class="job-title">Sr. Site Reliability Engineer</h3>
-                <div class="time">2022 - Current</div>
+                <div class="time">2022 - 2025</div>
               </div>
               <div class="company">Autify, Inc.</div>
               <div class="company">Tokyo, Japan</div>
@@ -196,9 +252,8 @@
                   functionality
                 </li>
                 <li>
-                  Reduced AWS infrastructure costs by over 50% within first year of employment
-                  through strategic resource optimization, AWS Savings Plans purchasing,
-                  architecture refinements, and more
+                  Reduced AWS infrastructure costs by over 50% within first year through strategic
+                  resource optimization, Savings Plans purchasing, and architecture refinements
                 </li>
                 <li>
                   Strengthened application reliability by implementing Helm-based deployments with
@@ -206,9 +261,9 @@
                   observability through Prometheus, Grafana and distributed tracing with Datadog
                 </li>
                 <li>
-                  Implemented comprehensive cost observability mechanisms including Amazon CUDOS and
-                  custom pipelines into Holistics, providing leadership with cost visibility
-                  dashboards, anomaly detection, and proactive budget alerts
+                  Implemented comprehensive cost observability including Amazon CUDOS and custom
+                  pipelines into Holistics, providing leadership with cost visibility dashboards,
+                  anomaly detection, and proactive budget alerts
                 </li>
               </ul>
             </div>
@@ -232,8 +287,7 @@
                 </li>
                 <li>
                   Assisted enterprise customers in the formulation and improvement of overall
-                  workload observability posture and reporting on service level objectives for a
-                  given application's services
+                  workload observability posture and reporting on service level objectives
                 </li>
                 <li>
                   Assisted customers in capacity planning and management for AWS hosting based on
@@ -308,7 +362,7 @@
           <div class="item">
             <div class="meta">
               <div class="upper-row">
-                <h3 class="job-title">Senior Service Center Analyst / Field Engineer</h3>
+                <h3 class="job-title">Sr. Service Center Analyst / Field Engineer</h3>
                 <div class="time">2012 - 2013</div>
               </div>
               <div class="company">Foster Farms</div>
@@ -373,20 +427,15 @@
           </h2>
 
           <div class="skillset">
-            <!-- Proficient Skills -->
             <div class="item">
               <h3 class="job-title">Proficient</h3>
               <p>
-                Amazon Web Services (AWS), Kubernetes, Cost Engineering, Python, Infrastructure as
-                Code (Terraform, CDK, CloudFormation), DevOps, Google Cloud Platform (GCP), Linux,
-                Windows Server (PowerShell), SQL (Postgres, MySQL, Amazon Athena), Observability
-                (Prometheus, Grafana, Fluent Bit), CI/CD (CircleCI, GitHub Actions)
+                Amazon Web Services (AWS), Google Cloud Platform (GCP), Cost Engineering,
+                Kubernetes, Python, Infrastructure as Code (Terraform, CDK, CloudFormation), AI/ML
+                Agent Systems (Strands SDK, A2A Protocol, Bedrock), Observability (VictoriaMetrics,
+                Grafana, ClickHouse, OpenTelemetry, Prometheus), DevOps, Linux, SQL (Postgres,
+                MySQL, Athena), CI/CD (GitHub Actions, Jenkins, ArgoCD)
               </p>
-            </div>
-
-            <div class="item">
-              <h3 class="job-title">Currently Learning</h3>
-              <p>Go (Golang)</p>
             </div>
           </div>
         </section>
@@ -442,10 +491,10 @@
             <br /><br />
 
             <span class="project-tagline">
-              I've also built out this resume to deploy on CloudFront using the
-              <a href="https://github.com/aws/aws-cdk">AWS CDK</a> much like sk-site-s3-cdk. The
-              site is hosted entirely serverless leveraging AWS free tier and is replicated
-              worldwide via CloudFront's globally distributed edge networks. <br /><br />
+              This resume site deployed on CloudFront using the
+              <a href="https://github.com/aws/aws-cdk">AWS CDK</a>. Entirely serverless, leveraging
+              S3, CloudFront with Origin Access Control, ACM, and Route53. Replicated worldwide via
+              CloudFront's globally distributed edge networks.
             </span>
           </div>
         </section>
@@ -569,10 +618,7 @@
     </footer>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap/bootstrap.min.js"></script>
-
-    <!-- custom js -->
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
